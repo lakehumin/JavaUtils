@@ -6,31 +6,6 @@ public class Main {
 	
 	public static void main(String[] args) {
 		
-//		TreeNode tn[] = new TreeNode[11];
-//		for(int i = 0; i < 11; i++) {
-//			tn[i] = new TreeNode(i);
-//		}
-//		
-//		tn[6].left = tn[4];tn[6].right= tn[8];
-//		tn[4].left = tn[2];tn[4].right= tn[5];
-//		tn[2].left = tn[1];tn[2].right= tn[3];
-//		tn[8].left = tn[7];tn[8].right= tn[9];
-//		tn[9].right= tn[10];
-//		
-//		StringBuilder sb = new StringBuilder();
-//		new Main().buildSerializeString(tn[6], sb);
-//		System.out.println(sb.toString());
-//		TreeNode root = new Main().deserializeBinaryTree(sb.toString());
-//		System.out.println(new Main().serializeBinaryTree(root));
-		
-//		while(dln.right != null) {
-//			System.out.println(dln.val);
-//			dln = dln.right;
-//		}System.out.println("hah");
-//		while(dln != null) {
-//			System.out.println(dln.val);
-//			dln = dln.left;
-//		}
 		System.out.println(new Main().isStackOutSequence(new int[]{1,2,3,4,5,6,7}, new int[]{3,4,2,1,7,6,5}));
 	}
 	
